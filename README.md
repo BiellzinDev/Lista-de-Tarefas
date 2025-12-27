@@ -10,6 +10,7 @@ Repositório criado dur<img width="1318" height="757" alt="Macbook-Air-biellzind
 
 <img width="379" height="770" alt="iPhone-13-PRO-biellzindev github io" src="https://github.com/user-attachments/assets/164e8d8d-ae82-4683-a4e8-107811ff976e" />
 
+---
 ante o curso de **Desenvolvimento Web**, com o objetivo de reunir e demonstrar componentes web reutilizáveis desenvolvidos em HTML,CSS e JavaScript.
 Este projeto serve como um **portfólio prático** dos conhecimentos adquiridos ao longo dos estudos, além de um laboratório para testar novas ideias e boas práticas de desenvolvimento Frontend.
 
