@@ -138,6 +138,10 @@ h1{
     color: white;
     border: none;
 }
+#btn-remove:hover{
+    transform:scale(1.2,1.2);
+    color:#c70039;
+}
 .adicionar{
     background: transparent;
     border: none;
