@@ -1,14 +1,14 @@
 # 🚀 LISTA E TAREFAS
 
-<img width="800" height="600" alt="Macbook-Air-biellzindev github io" src="https://github.com/user-attachments/assets/0982259a-7366-4255-a22e-c1cb34764bb8" />
+<img width="500" height="300" alt="Macbook-Air-biellzindev github io" src="https://github.com/user-attachments/assets/0982259a-7366-4255-a22e-c1cb34764bb8" />
 
-<img width="379" height="500" alt="iPhone-13-PRO-biellzindev github io (1)" src="https://github.com/user-attachments/assets/8746368e-6b08-4315-87e9-72e2b664f655" />
+<img width="150" height="300" alt="iPhone-13-PRO-biellzindev github io (1)" src="https://github.com/user-attachments/assets/8746368e-6b08-4315-87e9-72e2b664f655" />
 
-<img width="379" height="500" alt="iPhone-13-PRO-biellzindev github io (2)" src="https://github.com/user-attachments/assets/4326ec11-a8ed-44ea-b34e-9e06646706e0" />
+<img width="150" height="300" alt="iPhone-13-PRO-biellzindev github io (2)" src="https://github.com/user-attachments/assets/4326ec11-a8ed-44ea-b34e-9e06646706e0" />
 
-<img width="379" height="500" alt="iPhone-13-PRO-biellzindev github io (3)" src="https://github.com/user-attachments/assets/2e4ad000-4e8e-43c8-8c76-7c2e6dc33aa9" />
+<img width="150" height="300" alt="iPhone-13-PRO-biellzindev github io (3)" src="https://github.com/user-attachments/assets/2e4ad000-4e8e-43c8-8c76-7c2e6dc33aa9" />
 
-<img width="379" height="500" alt="iPhone-13-PRO-biellzindev github io" src="https://github.com/user-attachments/assets/164e8d8d-ae82-4683-a4e8-107811ff976e" />
+<img width="150" height="300" alt="iPhone-13-PRO-biellzindev github io" src="https://github.com/user-attachments/assets/164e8d8d-ae82-4683-a4e8-107811ff976e" />
 
 ---
 Repositório criado durante o curso de **Desenvolvimento Web**, com o objetivo de reunir e demonstrar componentes web reutilizáveis desenvolvidos em HTML,CSS e JavaScript.
