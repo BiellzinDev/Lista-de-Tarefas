@@ -1,0 +1,206 @@
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    font-family: sans-serif;
+    background-color: rgb(41, 37, 37);
+    width: 100%;
+    height: 100dvh;
+}
+.flex-align-center-justify-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    background: black;
+    width: 100%;
+}
+.logo{
+    font-size: clamp(25px, 40%, 400px);
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+.btn-hmenu{
+    display: flex;
+    color: rgb(207, 17, 255);
+    border-radius:5px ;
+    background: rgb(195, 10, 241);
+    border: none;
+    cursor: pointer;
+}
+.header-limiter{
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+.lista-menu{
+    display: none;
+}
+.active{
+    display: initial;
+    position: absolute;
+    width: 95%;
+    padding: 25px;
+    border-radius: 15px;
+    inset-block-start: 68px;
+    background-color: rgb(214, 18, 188);
+    flex-direction: column;
+}
+.lista-menu li{
+    list-style-type: none;
+    width: 100%;
+    font-size: large;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lista-menu li:hover{
+    background-color: rgb(233, 136, 209);
+    border-radius: 5px;
+}
+.btn-submit:hover{
+    border-radius: 10px;
+    background-color: rgb(233, 136, 209);
+}
+.btn-login:hover{
+    background-color: rgb(233, 136, 209);
+}
+main{
+    margin-top: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: clamp(25px, 40%, 400px);
+}
+.caixa,.box{
+    flex-direction: column;
+    background-color: rgb(53, 52, 51);
+    border-radius: 15px;
+    width: 90%;
+    gap: 20px;
+    padding: 10px 0;
+}
+.caixa-tarefa,.to-do-list,.caixa-login{
+    flex-direction: column;
+    width: 95%;
+    gap: 10px;
+}
+.caixa-login{
+    display: flex;
+    align-items: flex-start;
+    padding: 0 0 20px ;
+}
+.input,.btn-submit,#tfNova{
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+}
+.tarefa::placeholder{
+    padding-left: 15px;
+    font-size: 16px;
+}
+.btn-submit{
+    background-color: rgb(214, 18, 188);
+    cursor: pointer;
+}
+.btn-login{
+    background: rgb(214, 18, 188);
+    border: none;
+    padding: 15px 40px;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+}
+#btn-remove{
+    cursor: pointer;
+    display: flex;
+    background: transparent;
+    color: white;
+    border: none;
+}
+.adicionar{
+    background: transparent;
+    border: none;
+    font-size: clamp(15px, 40%, 400px);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+/* .plus{
+    background-image: url(./Icons/plus.png);
+    width: 30px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+} */
+.conteudo-texto{
+    width: 95%;
+}
+input:valid:focus{
+    border-bottom: 2px solid green;
+}
+#tfNova{
+    list-style: none;
+    background: grey;
+    justify-content: space-between;
+    padding: 5px;
+}
+#showLista{
+    list-style-type: none;
+}
+.to-do-list{
+    width: 100%;
+    justify-content: space-around;
+}
+li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#alert{
+    color: red;
+    width: 100%;
+    height: 20px;
+}
+@media(min-width:1200px){
+    .lista-menu{
+        display: flex;
+        width: 50%;
+        padding: 0;
+        background: none;
+        position: initial;
+    }
+    .btn-hmenu{
+        display: none;
+    }
+    .caixa{
+    width: 45%;
+    }
+    .box{
+        width: 30%;
+    }
+}

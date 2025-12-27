@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Afazeres</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header class="flex-align-center-justify-center" id="header">
+        <nav class="header-limiter flex-align-center-justify-center nav">
+            <a href="#" class="logo">Logo</a>
+            <ul class="lista-menu flex-align-center-justify-center">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Serviços</a></li>
+            </ul>
+            <button class="btn-hmenu"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35"  class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg></button>
+        </nav>
+    </header>
+    <main class=" flex-align-center-justify-center">
+        <section class="caixa flex-align-center-justify-center">
+            <h1>Lista de Afazeres</h1>
+            <div class="caixa-tarefa flex-align-center-justify-center">
+                <form action="#" id="form" class="caixa-tarefa flex-align-center-justify-center">
+                    <input type="text" placeholder="Digite a sua tarefa" class="tarefa input" id="texto">
+                    <span id="alert"></span>
+                    <div class="btn-submit flex-align-center-justify-center">
+                        <input type="submit" value="Adicionar tarefa " class=" adicionar">
+                        <div class="plus"></div>
+                    </div>
+                </form>
+                <div class="conteudo-texto ">
+                    <ul class="to-do-list flex-align-center-justify-center" id="showLista">
+                        <li id="tfNova" class="flex-align-center-justify-center">
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+
+
