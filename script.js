@@ -8,6 +8,7 @@ const localStorageKey = "to-do-list"
 const nav = document.querySelector(".nav")
 const messageAlert = document.getElementById("alert")
 
+
 btnMenu.addEventListener("click", () =>
     listaMenu.classList.toggle("active")
 )
@@ -55,5 +56,3 @@ function removeItem(data){
     showValores()
 }
 showValores()
-    
-    

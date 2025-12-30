@@ -9,7 +9,7 @@ body{
     color: white;
     font-family: sans-serif;
     background-color: rgb(41, 37, 37);
-    width: 100%;
+    width: 100vw;
     height: 100dvh;
 }
 .flex-align-center-justify-center{
@@ -39,7 +39,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    padding: 10px;
+    padding: 10px 10px 10px 40px;
 }
 li a{
     color: white;
@@ -58,6 +58,7 @@ li a{
     width: 95%;
     padding: 25px;
     border-radius: 15px;
+    left: 3%;
     inset-block-start: 68px;
     background-color: rgb(214, 18, 188);
     flex-direction: column;
@@ -114,22 +115,35 @@ h1{
     height: 45px;
     border-radius: 10px;
 }
+.tarefa{
+    padding-left: 10px;
+}
 .tarefa::placeholder{
-    padding-left: 15px;
     font-size: 16px;
 }
 .btn-submit{
     background-color: rgb(214, 18, 188);
     cursor: pointer;
 }
-.btn-login{
+.btn-login,.btn-cadastrar{
+    width: 100%;
     background: rgb(214, 18, 188);
     border: none;
-    padding: 15px 40px;
+    padding: 15px;
     border-radius: 15px;
     color: white;
     cursor: pointer;
     font-weight: 700;
+}
+.box-cadastro{
+    width: 100%;
+    justify-content: space-around;
+    gap: 10px;
+}
+.btn-cadastrar{
+    background: #ccc;
+    color: black;
+    width: 100%;
 }
 #btn-remove{
     cursor: pointer;
@@ -152,14 +166,6 @@ h1{
     width: 100%;
     height: 100%;
 }
-/* .plus{
-    background-image: url(./Icons/plus.png);
-    width: 30px;
-    height: 15px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-} */
 .conteudo-texto{
     width: 95%;
 }
@@ -170,7 +176,8 @@ input:valid:focus{
     list-style: none;
     background: grey;
     justify-content: space-between;
-    padding: 5px;
+    padding: 5px 15px;
+    font-weight: 600;
 }
 #showLista{
     list-style-type: none;
@@ -190,6 +197,145 @@ li{
     width: 100%;
     height: 20px;
 }
+.register{
+    display: none;
+    width: 100%;
+    position: absolute;
+    left: 5%;
+    inset-block-start: 6rem;
+}
+.active-register{
+    display: block;
+}
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    position:absolute ;
+    background-color: rgba(255, 255, 255, 1);
+    width: 90%;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    gap: 5px;
+}
+.cadastro h2{
+    font-weight: 700;
+    padding: 10px;
+}
+.termos{
+    width: 90%;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: left;
+}
+#form-cadastro #check{
+    height: 15px;
+    width: fit-content;
+}
+#form-cadastro{
+    flex-direction: column;
+    color: black;
+    width: 90%;
+    height: 100%;
+    align-items: flex-start;
+    gap: 8px;
+}
+.btn-send:enabled{
+    color: black;
+}
+.btn-send:disabled{
+    color: rgb(119, 118, 118);
+    background-color: rgb(223, 222, 223);
+    cursor:default ;
+}
+.btn-send,.btn-cancel{
+    background-color: rgb(181, 181, 204);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+.btn-cancel{
+    background: red;
+}
+#form-cadastro input, .btn-cancel{
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    padding: 5px;
+}
+#form-cadastro input:focus{
+    outline: none;
+    border: 3px solid black;
+}
+.cadastro h2{
+    color: black;
+}
+.userLogged{
+    font-size: 15px;
+    width: 40%;
+    color: white;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 1;
+    /* padding-right: 20px; */
+}
+
+.btn-logout{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+.btn-logout:hover{
+    color:#c70039;
+}
+.box-user{
+    gap: 5px;
+    background: #000000;
+    border-radius: 10px;
+    padding: 5px;
+}
+.box-user i{
+        color: #ccc;
+}
+#msgError{
+    text-align: center;
+    background-color: #ffbbbb;
+    color: #ff0000;
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+    display: none;
+}
+#msgSuccess{
+    text-align: center;
+    color: #00bb00;
+    background-color: #bbffbe;
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+    display: none;
+}
+#msgLogged{
+    text-align: center;
+    color: #00bb00;
+    background-color: #bbffbe;
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+    display: none;
+}
+#msgErrorLogin{
+    text-align: center;
+    background-color: #ffbbbb;
+    color: #ff0000;
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+    display: none;
+}
 @media(min-width:1200px){
     .lista-menu{
         display: flex;
@@ -197,6 +343,7 @@ li{
         padding: 0;
         background: none;
         position: initial;
+        flex-direction: row;
     }
     .btn-hmenu{
         display: none;
@@ -207,4 +354,15 @@ li{
     .box{
         width: 30%;
     }
+    .register{
+        max-width: 50%;
+        left: 29%;
+    }
+    .box-user i{
+        color: transparent;
+    }
+.userLogged{
+    width: 10%;
+}
+    
 }
