@@ -14,10 +14,10 @@ Repositório criado durante o curso de Desenvolvimento Web, com o objetivo de re
 Este projeto serve como um portfólio prático dos conhecimentos adquiridos ao longo dos estudos, além de um laboratório para testar novas ideias e boas práticas de desenvolvimento Frontend.
 
 Entre as implementações, destaca-se a criação de um formulário de login e cadastro, com validação de dados em JavaScript e armazenamento das informações no localStorage, simulando um fluxo básico de autenticação no frontend.
-
+---
 🔗 Veja o projeto online
 👉 Acesse a demonstração
-
+---
 ✨ Funcionalidades
 
 Display Flex
@@ -33,7 +33,7 @@ Validação de formulários com JavaScript
 Formulário de login e cadastro
 
 Armazenamento de dados utilizando localStorage
-
+---
 🛠️ Tecnologias utilizadas
 
 HTML5
@@ -41,7 +41,7 @@ HTML5
 CSS3
 
 JavaScript
-
+---
 📂 Estrutura do projeto
 
 O repositório contém:
@@ -53,12 +53,12 @@ Código-fonte comentado
 Arquivos de exemplo para visualização individual dos componentes
 
 Componentes de formulário com validação e persistência de dados
-
+---
 🏗️ Status do projeto
 
 ✅ Em desenvolvimento contínuo
 🔄 Novos componentes serão adicionados ao longo do curso e das práticas individuais
-
+---
 🤝 Contribuição
 
 Este projeto tem fins educacionais, mas sugestões de melhorias e novas ideias são sempre bem-vindas.
