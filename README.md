@@ -10,49 +10,55 @@
 
 
 ---
-Repositório criado durante o curso de **Desenvolvimento Web**, com o objetivo de reunir e demonstrar componentes web reutilizáveis desenvolvidos em HTML,CSS e JavaScript.
-Este projeto serve como um **portfólio prático** dos conhecimentos adquiridos ao longo dos estudos, além de um laboratório para testar novas ideias e boas práticas de desenvolvimento Frontend.
+Repositório criado durante o curso de Desenvolvimento Web, com o objetivo de reunir e demonstrar componentes web reutilizáveis desenvolvidos em HTML, CSS e JavaScript.
+Este projeto serve como um portfólio prático dos conhecimentos adquiridos ao longo dos estudos, além de um laboratório para testar novas ideias e boas práticas de desenvolvimento Frontend.
 
-🔗 **Veja o projeto online**  
-[👉 Acesse a demonstração](https://biellzindev.github.io/Lista-de-Tarefas/)
+Entre as implementações, destaca-se a criação de um formulário de login e cadastro, com validação de dados em JavaScript e armazenamento das informações no localStorage, simulando um fluxo básico de autenticação no frontend.
 
----
+🔗 Veja o projeto online
+👉 Acesse a demonstração
 
-## ✨ Funcionalidades
-- Display Flex
-- Animações e interações com Css
-- Organização modular e reutilizável
-- Estrutura clara e didática para estudos e futuras implementações
-- Validação com JS
+✨ Funcionalidades
 
----
+Display Flex
 
-## 🛠️ Tecnologias utilizadas
+Animações e interações com CSS
 
-- **HTML5**
-- **CSS3**
-- **JAVASCRIPT**
+Organização modular e reutilizável
 
----
+Estrutura clara e didática para estudos e futuras implementações
 
-## 📂 Estrutura do projeto
+Validação de formulários com JavaScript
+
+Formulário de login e cadastro
+
+Armazenamento de dados utilizando localStorage
+
+🛠️ Tecnologias utilizadas
+
+HTML5
+
+CSS3
+
+JavaScript
+
+📂 Estrutura do projeto
 
 O repositório contém:
-- Pastas separadas para cada componente
-- Código-fonte comentado
-- Arquivos de exemplo para visualização individual dos componentes
 
----
+Pastas separadas para cada componente
 
-## 🏗️ Status do projeto
+Código-fonte comentado
 
-✅ Em desenvolvimento contínuo  
+Arquivos de exemplo para visualização individual dos componentes
+
+Componentes de formulário com validação e persistência de dados
+
+🏗️ Status do projeto
+
+✅ Em desenvolvimento contínuo
 🔄 Novos componentes serão adicionados ao longo do curso e das práticas individuais
 
----
-
-## 🤝 Contribuição
+🤝 Contribuição
 
 Este projeto tem fins educacionais, mas sugestões de melhorias e novas ideias são sempre bem-vindas.
-
----
