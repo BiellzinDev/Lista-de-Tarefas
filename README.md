@@ -8,7 +8,7 @@
 
 <img width="150" height="300" alt="iPhone-13-PRO-biellzindev github io (3)" src="https://github.com/user-attachments/assets/2e4ad000-4e8e-43c8-8c76-7c2e6dc33aa9" />
 
-<img width="150" height="300" alt="iPhone-13-PRO-127 0 0 1 (1)" src="https://github.com/user-attachments/assets/070a5103-1f40-4c04-9ee2-cabdb6dc23c9" />
+<img width="150" height="300" alt="iPhone-XR-2018-127 0 0 1" src="https://github.com/user-attachments/assets/595dc22c-d3b7-4816-a480-5bae0eb1972b" />
 
 <img width="500" height="300" alt="Macbook-Air-127 0 0 1" src="https://github.com/user-attachments/assets/c6a98bc4-37c5-4563-8ffc-dbe3fd1ece47" />
 
