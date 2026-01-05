@@ -1,5 +1,6 @@
  const userLogged = document.getElementById("userLogged")
- const teste = document.getElementById("teste")
+ const loginOff = document.getElementById("login-off")
+ const Off = document.getElementById("off")
         
 
  function entrar(){
@@ -32,7 +33,8 @@ if(localStorage.getItem("token") == null){
 else{
     userLogged.innerHTML = `<p>Bem vindo ${userLogado.nome}</p>
     <button onclick="sair()" class="btn-logout" id="btnLogout"><div><i class="fi fi-rr-exit"></i></div></button>`
-    teste.style.display = "none"
+    Off.style.display = "none"
+    loginOff.style.display = "none"
     
 }
 
