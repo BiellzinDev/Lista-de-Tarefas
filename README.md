@@ -8,9 +8,9 @@
 
 <img width="150" height="300" alt="iPhone-13-PRO-biellzindev github io (3)" src="https://github.com/user-attachments/assets/2e4ad000-4e8e-43c8-8c76-7c2e6dc33aa9" />
 
-<img width="644" height="1310" alt="iPhone-13-PRO-127 0 0 1 (1)" src="https://github.com/user-attachments/assets/070a5103-1f40-4c04-9ee2-cabdb6dc23c9" />
+<img width="150" height="300" alt="iPhone-13-PRO-127 0 0 1 (1)" src="https://github.com/user-attachments/assets/070a5103-1f40-4c04-9ee2-cabdb6dc23c9" />
 
-<img width="2800" height="1608" alt="Macbook-Air-127 0 0 1" src="https://github.com/user-attachments/assets/c6a98bc4-37c5-4563-8ffc-dbe3fd1ece47" />
+<img width="150" height="300" alt="Macbook-Air-127 0 0 1" src="https://github.com/user-attachments/assets/c6a98bc4-37c5-4563-8ffc-dbe3fd1ece47" />
 
 ---
 Repositório criado durante o curso de Desenvolvimento Web, com o objetivo de reunir e demonstrar componentes web reutilizáveis desenvolvidos em HTML, CSS e JavaScript.
