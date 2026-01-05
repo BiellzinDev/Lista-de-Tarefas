@@ -10,7 +10,7 @@
 
 <img width="150" height="300" alt="iPhone-13-PRO-127 0 0 1 (1)" src="https://github.com/user-attachments/assets/070a5103-1f40-4c04-9ee2-cabdb6dc23c9" />
 
-<img width="150" height="300" alt="Macbook-Air-127 0 0 1" src="https://github.com/user-attachments/assets/c6a98bc4-37c5-4563-8ffc-dbe3fd1ece47" />
+<img width="500" height="300" alt="Macbook-Air-127 0 0 1" src="https://github.com/user-attachments/assets/c6a98bc4-37c5-4563-8ffc-dbe3fd1ece47" />
 
 ---
 Repositório criado durante o curso de Desenvolvimento Web, com o objetivo de reunir e demonstrar componentes web reutilizáveis desenvolvidos em HTML, CSS e JavaScript.
