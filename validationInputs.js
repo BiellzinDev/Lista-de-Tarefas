@@ -1,4 +1,6 @@
  const userLogged = document.getElementById("userLogged")
+ const teste = document.getElementById("teste")
+        
 
  function entrar(){
     let listaUser = []
@@ -30,8 +32,9 @@ if(localStorage.getItem("token") == null){
 else{
     userLogged.innerHTML = `<p>Bem vindo ${userLogado.nome}</p>
     <button onclick="sair()" class="btn-logout" id="btnLogout"><div><i class="fi fi-rr-exit"></i></div></button>`
+    teste.style.display = "none"
+    
 }
-
 
 
 function sair(){
