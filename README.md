@@ -23,7 +23,17 @@ Entre as implementações, destaca-se a criação de um formulário de login e c
 ---
 ✨ Funcionalidades
 
+AddEventListener
+
+Hamburguer Menu
+
 Display Flex
+
+Media queries
+
+Site Responsivo
+
+Mobile First
 
 Animações e interações com CSS
 
